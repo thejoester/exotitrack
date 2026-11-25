@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete Your ExotiTrack Account</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #555;
+    --rule: #e3e3e3;
+    --accent: #2e7d57;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --fg: #e7e9ec;
+      --muted: #a2a8b0;
+      --rule: #2a2e35;
+      --accent: #6fcf97;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 2.2rem 0 .6rem; }
+  p, li { color: var(--fg); }
+  .lead { font-size: 1.05rem; }
+  ul, ol { padding-left: 1.3rem; }
+  li { margin: .3rem 0; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+  .muted { color: var(--muted); font-size: .9rem; }
+  strong { font-weight: 600; }
+  code { background: rgba(127,127,127,.15); padding: .1rem .35rem; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Delete your ExotiTrack account and data</h1>
+  <p class="lead">ExotiTrack ("the app") lets you keep records of your animals. Most of the app works offline with no account. If you signed in to use cloud sync or sharing, an account was created for you (through Google Sign-In). This page explains how to delete that account and the data tied to it.</p>
+
+  <h2>Delete your local data (no account needed)</h2>
+  <p>Data you enter while not signed in lives only on your device. To remove it, delete the records in the app, or uninstall ExotiTrack. Uninstalling removes all local app data from that device.</p>
+
+  <h2>Delete your account and cloud data</h2>
+  <p>If you signed in, send a deletion request by email:</p>
+  <ol>
+    <li>Email <a href="mailto:exotitrack@gmail.com?subject=Delete%20my%20ExotiTrack%20account">exotitrack@gmail.com</a> <strong>from the Google account's email address</strong> you use to sign in to ExotiTrack.</li>
+    <li>Use the subject <code>Delete my ExotiTrack account</code>.</li>
+    <li>We confirm the request matches your signed-in email and then delete your account and cloud data.</li>
+  </ol>
+
+  <h2>What gets deleted</h2>
+  <ul>
+    <li>Your account record (Google Sign-In / Firebase Authentication identity for ExotiTrack).</li>
+    <li>Your cloud data: animals, log entries, notes, reminders, categories, and any photos synced to the cloud.</li>
+    <li>Your membership in any collections you own, and your access to collections shared with you.</li>
+  </ul>
+
+  <h2>What is not deleted</h2>
+  <ul>
+    <li>Data in a collection owned by <strong>someone else</strong> who shared it with you. That belongs to the owner; your access is removed, but their records remain theirs.</li>
+    <li>Local copies on devices you still have the app installed on. Uninstall the app, or delete the records in-app, to remove those.</li>
+  </ul>
+
+  <h2>Timing and retention</h2>
+  <p>Account and cloud data are deleted within <strong>30 days</strong> of a verified request. Residual copies in routine backups are purged within the normal backup cycle.</p>
+
+  <hr>
+  <p class="muted">Questions: <a href="mailto:exotitrack@gmail.com">exotitrack@gmail.com</a> &middot; <a href="./">ExotiTrack</a> &middot; <a href="privacy.html">Privacy Policy</a></p>
+</main>
+</body>
+</html>
